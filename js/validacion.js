@@ -33,10 +33,10 @@ function passwordForValidation() {
 }
 
 function passwordValidation() {
-  const passwordIsValid =
+  const passwordIsInvalid =
     password1.value.length < 6 || password1.value !== password2.value;
 
-  if (passwordIsValid) return password2.setCustomValidity('is-invalid');
+  if (passwordIsInvalid) return password2.setCustomValidity('is-invalid');
 
   password2.setCustomValidity('');
 }

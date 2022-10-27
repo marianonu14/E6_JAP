@@ -64,17 +64,36 @@
                 data-bs-target="#modalTerminos">Términos del servicio </button>
               <p class="m-0 text-danger" id="feedback-terminos"></p>
             </div>
-
-
+            <div class="modal fade" id="modalTerminos" tabindex="-1" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5">Términos y condiciones del servicio.</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quasi sapiente voluptatum
+                      deserunt?
+                      Deleniti, adipisci vitae in quaerat eius nemo optio? Quas at magni saepe cumque. Delectus
+                      perspiciatis omnis
+                      accusamus.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <div id="terminos-condiciones" class="form-check">
+                      <input type="checkbox" class="form-check-input" id="terminos" required>
+                      <label class="form-check-label" for="terminos" id="terminos-label">Acepto los términos y
+                        condiciones del
+                        servicio.</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
             <button class="btn btn-primary" type="submit">Registrarme</button>
-
-
           </div>
         </div>
       </form>
-
     </main>
-
     <footer class="my-5 pt-5 text-muted text-center text-small">
       <p class="mb-1">Este sitio forma parte de <a href="https://jovenesaprogramar.edu.uy/" target="_blank">Jovenes a
           Programar</a> - 2022</p>
@@ -83,27 +102,7 @@
     </footer>
   </div>
 
-  <div class="modal fade" id="modalTerminos" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5">Términos y condiciones del servicio.</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quasi sapiente voluptatum deserunt?
-            Deleniti, adipisci vitae in quaerat eius nemo optio? Quas at magni saepe cumque. Delectus perspiciatis omnis
-            accusamus.</p>
-        </div>
-        <div class="modal-footer">
-          <div id="terminos-condiciones" class="form-check">
-            <input type="checkbox" class="form-check-input" id="terminos" required>
-            <label class="form-check-label" for="terminos" id="terminos-label">Acepto los términos y condiciones del servicio.</label>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+
 
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/validacion.js"></script>
